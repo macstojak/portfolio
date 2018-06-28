@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Arsenal|Amatic+SC:700|Frank+Ruhl+Libre:500|Indie+Flower|Just+Another+Hand|Pacifico|Tillana:500|Satisfy:400|Shadows+Into+Light+Two');
+
+  body {
+      position: relative;
+	  
+  }
+ #section1 {padding: 1.5vw; height:1080px;color: black; background-color: #fff; background-image:url('Images/Layout/MS2.jpg'); background-repeat: no-repeat;font-family: 'Shadows Into Light Two', cursive; font-size:1.5vw;}
+  #section2 {padding: 1.5vw; height:1500px;color: #fff; background-color: #fff; margin-top: 10px; }
+   #section21 {padding: 1.5vw; padding-top: 100px; height:1500px;color: #fff; background-color: #fff; margin-top: 10px; font-color: black; }
+    #section22 {padding: 1.5vw; height:1200px;color: black; background-color: #fff; margin-top: 10px; font-color: black;}
+	 #section23 {padding: 1.5vw; height:1500px;color: black; background-color: #9AD93A; margin-top: 10px; font-color: black;}
+  #section3 {font-family: "Arsenal", sans-serif; padding: 1.5vw; height:900px;color: black; background-color: #fff; margin-top: 10px; font-color: black;}
+  #section31 {font-family: "Arsenal", sans-serif; padding: 1.5vw; height:900px;color: #black; background-color: #fff; margin-top: 10px; font-color: black; }
+    #section32 {padding: 1.5vw; height:900px;color: #black; background-color: #fff; margin-top: 10px; font-color: black;}
+	 #section33 {padding: 1.5vw; height:900px;color: #black; background-color: #fff; margin-top: 10px; font-color: black;}
+		#section34 {padding: 1.5vw; height:1200px;color: #black; background-color: #fff; margin-top: 10px; font-color: black;}
+  #section4 {font-family:'Arsenal', sans-serif; padding: 1.5vw; height:680px;color: #fff; background-color: #fff; margin-top: 10px; font-color: black;}
+
+ .carousel p{
+	 font-family:'Satisfy', cursive;
+	 font-size:1.5vw;
+ }
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: black;
+}
+#section21 p{
+	font-family: 'Arsenal', sans-serif;
+}
+#section22 p{
+	font-family: 'Arsenal', sans-serif;
+}
+#section23 p{
+	font-family: 'Arsenal', sans-serif;
+}
+
+ img{
+	 width:100%
+	 position: center;
+ }
+.carousel-slide{
+    max-height: 500px; 
+    width:100%;
+}
+
+.navbar-brand
+{
+	font-family: 'Satisfy', cursive;
+	font-size: 24px;
+}
+.brand-style{
+font-family: 'Tillana', cursive;
+	font-size: 18px;	
+}
+#section1 h1,p,li{
+	font-family: 'Shadows Into Light Two', cursive;
+}
+p, li{
+	font-size:20px;
+}
+#myNavbar a,li{
+	font-family: 'Shadows Into Light Two', cursive;
+}
+.brand-style > p{
+	font-family: 'Tillana', cursive;
+	font-size: 18px;
+	font-decoration:none;
+}
+.plain-text {
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 20px;
+	font-color:black;
+}
+.custom-heading{
+	font-family: 'Shadows Into Light Two', cursive;
+	font-size: 32px;
+}
+.img-container{
+	width:80px;
+	height:80px;
+}
+.glyphicon{
+	color:#fff;
+}
+#section34 .glyphicon-ok-circle{
+	color: black;
+}
+.carousel-caption {
+	font-size: 3vw;
+	font-family:'Pacifico', cursive;
+	bottom: 30%;
+
+}
+.carousel-caption h2{
+	padding-bottom: 0.5vw;
+		font-size: 3vw;
+	font-family:'Pacifico', cursive;
+}
+
+.carousel-indicators li{
+	height:1.5vw;
+	width:1.5vw;
+}
+.carousel-indicators .active{
+	height:1.5vw;
+	width:1.5vw;
+}
+
+.button-text{
+	font-family: 'Arsenal', sans-serif;
+	font-size: 1.6vw;
+}
+.link-style{
+	font-color: #fff;
+}
+
+#section3 p, li {
+	font-family: "Arsenal", sans-serif;
+	text-decoration: none;
+}
+
+.progress-text{
+	font-family: 'Arsenal', sans-serif;
+	font-size: 18px;
+	position: center;
+}
+.footer-text{
+font-size:9px;
+font-family: 'Arsenal', sans-serif;
+font-color: #130d33;	
+bottom: 120%;
+}
+.leg-green{
+	font-family: 'Arsenal', sans-serif;
+	color:#5CB85C;
+}
+.leg-orange{
+	font-family: 'Arsenal', sans-serif;
+	color:#F0AD4E;
+}
+.glyphicon-ok{
+	color:#5CB85C;
+}
+.glyphicon-remove{
+	color:#F0AD4E;
+}
+#section4 p, li, h1 {
+	font-family: "Arsenal", sans-serif;
+}
+

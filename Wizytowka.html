@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="pl-PL">
+<head>
+  <title>Witaj na mojej stronie</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="Custom-css.css" rel="stylesheet" type="text/css">
+	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Frank+Ruhl+Libre:500|Tillana:500|Satisfy:400|Shadows+Into+Light+Two" rel="stylesheet"> 
+
+</head>
+
+<body style="background-color:#FFFFFE;" data-spy="scroll" data-target=".navbar" data-offset="50">
+
+
+<!------------------------------ Menu -------------------------------------->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Maciej Stojak</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#section1">O mnie</a></li>
+        <li class="dropdown">
+          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projekty <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+		    <li><a href="#section21">Strony internetowe</a></li>
+            <li><a href="#section22">VBA</a></li>
+			<li><a href="#section23">Access</a></li>
+
+          </ul>
+        </li>
+        <li><a href="#section3">Curriculum Vitae</a></li>
+        <li><a href="#section4">Kontakt</a></li>
+      </ul>
+<ul class="navbar-nav navbar-brand navbar-right">
+<p class="brand-style"><span class="glyphicon glyphicon-phone"></span>  tel. 504 781 123 | <span class="glyphicon glyphicon-envelope"></span><a class="brand-style" href="mailto:maciej.stojak89@wp.pl">  e-mail:maciej.stojak89@wp.pl</a></p>
+
+</ul>
+    </div>
+  </div>
+</nav>
+
+<!------------------------------ CAROUSEL -------------------------------------->
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner" role="listbox">
+    <div class="item active">
+      <img src="Images/Layout/field1.jpg" alt="Pole">
+	  <div class="carousel-caption">
+	  <h2>Witaj! Poznaj projekty stron nad którymi pracowałem</h2>
+		<p><a class="btn btn-lg btn-primary button-text" role="button" href="#section21">Zobacz strony internetowe</a></p>
+	  </div>
+    </div>
+
+    <div class="item">
+      <img src="Images/Layout/forest1.jpg" alt="Las">
+	  <div class="carousel-caption">
+	  <h2>Sprawdź, co dotychczas stworzyłem z wykorzystaniem C#</h2> 
+	  <p><a class="btn btn-lg btn-primary button-text" role="button" href="https://github.com/macst89" target="_blank">Przejdź do konta github</a></p>
+	  </div>
+    </div>
+
+    <div class="item">
+      <img src="Images/Layout/lake1.jpg" alt="Morze">
+	  <div class="carousel-caption">
+	  <h2>Skontaktuj się ze mną i umów się na rozmowę</h2>
+
+	  <p><a class="btn btn-lg btn-primary button-text" role="button" href="#section4">Zobacz dane kontaktowe</a></p>
+	  </div>
+    </div>
+
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+<!------------------------------ TREŚĆ -------------------------------------->
+<!--O MNIE-->
+<div id="section1" class="container-fluid">
+<div class="container-fluid">
+  <h1 class="custom-heading">O mnie</h1>
+  
+  <ul><h2>Edukacja</h2>
+  <p>Studia podyplomowe</p>
+	  <p>Politechnika Białostocka - Wydział Informatyczny - Informatyka</p>
+	  </br>
+		<p>Studia I i II stopnia</p>
+	  <p>Politechnika Białostocka - Wydział Mechaniczny - Inżynieria Biomedyczna - specjalizacja: Nowoczesne konstrukcje i technologie w medycynie</p>
+	  <p>Praca magisterska: "Opracowanie konstrukcji modułu nadgarstkowego do zamiennego mocowania haka i chwytaka protetycznego dla dzieci"</p>
+  </ul>
+</br>
+	<ul>
+	<h2>Zainteresowania</h2>
+	<p>Gra na gitarze, wędkarstwo i spędzanie czasu na łonie natury :)</p>
+	</ul>
+</div>
+</div>
+<!--O MNIE-->
+
+<!--STRONY INTERNETOWE-->
+<div id="section21" style="background-image:url('Images/Layout/desktop1.jpg')" class="container-fluid">
+<div class="container-fluid">
+   <h1>Strony internetowe</h1>
+
+  <p><span class="glyphicon glyphicon-ok-circle"></span>  Strona weselna z galerią zdjęć w Wordpressie  </p>
+  <p><a href="http://www.agaimaciek2016.pl/" target="_blank">Przejdź do strony  <span class="glyphicon glyphicon-share-alt"></span></a></p>
+  <br/>
+  <div class="row">
+		<div class="col-xs-4 col-md-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/wedding-site1.jpg" target="_blank">
+			<img src="Images/Projects/wedding-site1.jpg" alt="Strona weselna2" style="width:100%">
+			<div class="caption"><p>Strona w Wordpress</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-4 col-md-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/wedding-site2.jpg" target="_blank">
+			<img src="Images/Projects/wedding-site2.jpg" alt="Strona weselna2" style="width:100%">
+			<div class="caption"><p>Przykładowa galeria</p></div>
+			</a>
+			</div>
+		</div>
+	
+	</div>
+    <br/>
+  
+ <p><span class="glyphicon glyphicon-ok-circle"></span>  Projekt strony NZOZ OMNI-MED z elektroniczną rejestracją (umieszczony na koncie github)</p>
+ <div class="row">
+		<div class="col-xs-3 col-md-3">
+			<div class="thumbnail">
+			<a href="Images/Projects/omni1.jpg" target="_blank">
+			<img src="Images/Projects/omni1.jpg" alt="Strona OMNI-MED1" style="width:100%">
+			<div class="caption"><p>Strona główna</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-3 col-md-3">
+			<div class="thumbnail">
+			<a href="Images/Projects/omni2.jpg" target="_blank">
+			<img src="Images/Projects/omni2.jpg" alt="Strona OMNI-MED2" style="width:100%">
+			<div class="caption"><p>Strona rejestracji</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-3 col-md-3">
+			<div class="thumbnail">
+			<a href="Images/Projects/omni3.jpg" target="_blank">
+			<img src="Images/Projects/omni3.jpg" alt="Strona OMNI-MED3" style="width:100%">
+			<div class="caption"><p>Strona informacyjna</p></div>
+			</a>
+			</div>
+		</div>
+	<div class="col-xs-3 col-md-3">
+			<div class="thumbnail">
+			<a href="Images/Projects/omni4.jpg" target="_blank">
+			<img src="Images/Projects/omni4.jpg" alt="Strona OMNI-MED2" style="max-height: 208.45px; width:100%">
+			<div class="caption"><p>Kawałek kodu odpowiedzialnego za komunikację interfejsu z bazą</p></div>
+			</a>
+			</div>
+		</div>
+	</div>
+	<p><span class="glyphicon glyphicon-ok-circle"></span>  Portfolio www.maciejstojak.pl - z wykorzystaniem wiedzy z zakresu HTML, CSS i Bootstrap</p>
+</div>
+</div>
+<!--STRONA INTERNETOWA-->
+
+<!--VBA-->
+<div id="section22" style="background-image:url('Images/Layout/charts1.jpg')" class="container-fluid">
+<div class="container-fluid">
+  <h1>VBA</h1>
+  <p>Sporządzenie formularza do wypełniania kart rehabilitanta i tworzenia listy pacjentów do ponownego wykorzystania</p>
+	<div class="row">
+		<div class="col-xs-4 col-md-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/excel-form.jpg" target="_blank">
+			<img src="Images/Projects/excel-form.jpg" alt="Excel formularz" style="width:100%">
+			<div class="caption"><p>Formularz do wypełniania karty zabiegowej rehabilitantów</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-4  col-md-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/excel-vba.jpg" target="_blank">
+			<img src="Images/Projects/excel-vba.jpg" alt="Kod VBA" style="width:100%">
+			<div class="caption"><p>Kod VBA</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-4 col-md-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/pdf-form.jpg" target="_blank">
+			<img src="Images/Projects/pdf-form.jpg" alt="Excel formularz" style="width:100%">
+			<div class="caption"><p>Gotowy formularz w PDF</p></div>
+			</a>
+			</div>
+		</div>
+	</div>
+	
+  </div>
+  </div>
+<!--VBA-->  
+  
+<!--ACCESS-->  
+<div id="section23" style="background-image:url('Images/Layout/deal1.jpg')" class="container-fluid">
+<div class="container-fluid">
+  <h1>Microsoft Access</h1>
+  <p>Zrealizowanie bazy danych rehabilitacji w programie MS ACCESS do sprawnego sporządzania dokumentacji w formie elektronicznej i papierowej.</p>
+  
+  <div class="row">
+		<div class="col-xs-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/access-register.jpg" target="_blank">
+			<img src="Images/Projects/access-register.jpg" alt="Access rejestracja" style="width:100%">
+			<div class="caption"><p>Formularz rejestracji</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/access-prescription.jpg" target="_blank">
+			<img src="Images/Projects/access-prescription.jpg" alt="Skierowanie" style="width:100%">
+			<div class="caption"><p>Formularz skierowania</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/access-visit.jpg" target="_blank">
+			<img src="Images/Projects/access-visit.jpg" alt="Wizyta" style="width:100%">
+			<div class="caption"><p>Formularz wizyty lekarza</p></div>
+			</a>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<div class="col-xs-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/access-relations.jpg" target="_blank">
+			<img src="Images/Projects/access-relations.jpg" alt="Access relacje" style="width:100%">
+			<div class="caption"><p>Struktura relacji pomiędzy tabelami</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/access-vba.jpg" target="_blank">
+			<img src="Images/Projects/access-vba.jpg" alt="Kod vba" style="width:100%">
+			<div class="caption"><p>Fragment kodu VBA do realizacji formularza z danego zestawu rekordów</p></div>
+			</a>
+			</div>
+		</div>
+		<div class="col-xs-4">
+			<div class="thumbnail">
+			<a href="Images/Projects/access-word.jpg" target="_blank">
+			<img src="Images/Projects/access-word.jpg" alt="Access to word" style="width:100%">
+			<div class="caption"><p>Gotowy formularz z wypełnionymi danymi</p></div>
+			</a>
+			</div>
+		</div>
+	</div>
+ </div>
+</div>
+<!--ACCESS-->
+
+<!--CURRICULUM VITAE-->
+<div id="section3" class="container-fluid">
+
+<div class="navbar-header navbar-default">
+    <div class="nav nav-tabs">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar2">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+	  <a class="navbar-brand" href="#">Curriculum Vitae</a>
+    </div>
+	</div>
+<div class="collapse navbar-collapse" id="myNavbar2">
+<ul class="nav nav-tabs nav-justified">
+<li class="active"><a data-toggle="tab" href="#section31">Dane personalne</a></li>
+<li><a data-toggle="tab" href="#section32">Doświadczenie</a></li>
+<li><a data-toggle="tab" href="#section33">Wykształcenie</a></li>
+<li><a data-toggle="tab" href="#section34">Umiejętności</a></li>
+
+</ul>
+</div>
+<div class="tab-content">
+<div id="section31" class="tab-pane fade in active">
+<div class="col-md-3"><img class="img-rounded" height="200" src="Images/Projects/MS1.jpg"></img></div>
+<div class="col-md-9">
+<h3 class="customheading">Maciej Stojak</h3>
+<p>Data urodzenia: 20.01.1989</p>
+<p>Telefon: 504 781 123</p>
+<p>E-mail: maciej.stojak89@wp.pl</p>
+<p>GitHub: macst89</p>
+<p>www.maciejstojak.pl</p>
+</div>
+</div>
+<div id="section32" class="tab-pane fade">
+<h3 class="customheading">NZOZ OMNI-MED (01.2014-obecnie)</h3>
+<p>Stanowisko: Pracownik biurowy/Informatyk</p>
+<p>Obowiązki:</p>
+<li>Przygotowanie co miesięcznej dokumentacji medycznej pacjenta dla lekarza i rehabilitantów z wykorzystaniem utworzonej bazy danych MS Access oraz formularzy w Word i Excel</li>
+<li>Obsługa interesantów do opieki długoterminowej, rehabilitacji i szkoleń</li>
+<li>Organizacja techniczna szkoleń dla pielęgniarek i położnych</li>
+<li>Obsługa umów wykładowców</li>
+<li>Archiwizacja dokumentacji medycznej pacjentów oraz kursów</li>
+
+</div>
+<div id="section33" class="tab-pane fade">
+<h3>Wykształcenie</h3>
+<li>10.2015 – 06.2016</br>
+Politechnika Białostocka, Wydział Informatyki</br>
+Kierunek: Informatyka - studia podyplomowe
+</li>
+<li>
+10.2008 – 12.2013</br>
+Politechnika Białostocka, Wydział Mechaniczny</br>
+Kierunek: Inżynieria Biomedyczna – studia I i II stopnia</br>
+Specjalność: Nowoczesne konstrukcje i technologie w medycynie
+
+</li>
+</div>
+<div id="section34" class="tab-pane fade">
+<p><span class="glyphicon glyphicon-ok-circle"></span>  C# - poziom średniozaawansowany </p>
+<div class="progress " style="height: 50px">
+  <div class="progress-bar progress-bar-success progress-text " role="progressbar" style="width:60%">
+   Podstawy(tablice, pętle itp.), klasy, enkapsulacja, dziedziczenie, polimorfizm
+  </div>
+  <div class="progress-bar progress-bar-warning progress-text " role="progressbar" style="width:40%">
+    Wyrażenia lambda
+  </div>
+
+</div>
+</br>
+
+<p><span class="glyphicon glyphicon-ok-circle"></span>  .NET - poziom podstawowy
+</p>
+<div class="progress " style="height: 50px">
+  <div class="progress-bar progress-bar-success progress-text " role="progressbar" style="width:40%">
+   Tworzenie formularzy rejestracji i logowania, WebForms
+  </div>
+  <div class="progress-bar progress-bar-warning progress-text " role="progressbar" style="width:60%">
+    Wzorzec MVC
+  </div>
+</div>
+</br>
+
+<p><span class="glyphicon glyphicon-ok-circle"></span>  SQL - poziom średniozaawansowany</p>
+<div class="progress " style="height: 50px">
+  <div class="progress-bar progress-bar-success progress-text " role="progressbar" style="width:80%">
+   DDL, DML, DCL, funkcje, grupowanie, złączenia, relacje, podzapytania
+  </div>
+  <div class="progress-bar progress-bar-warning progress-text " role="progressbar" style="width:20%">
+    Procedury składowane
+  </div>
+  </div>
+ </br> 
+ 
+<p><span class="glyphicon glyphicon-ok-circle"></span>  UML - poziom średniozaawansowany</p>
+<div class="progress " style="height: 50px">
+  <div class="progress-bar progress-bar-success progress-text " role="progressbar" style="width:80%">
+   Diagramy klas, aktywności, użycia, stanu, wdrożenia
+   </div>
+  <div class="progress-bar progress-bar-warning progress-text " role="progressbar" style="width:20%">
+    ...
+  </div>
+</div>
+</br>
+
+<p><span class="glyphicon glyphicon-ok-circle"></span>  Pozostałe umiejętności: HTML, CSS, Bootstrap, jQuery, VBA</p>
+<p>LEGENDA: </p>
+<p><span class="glyphicon glyphicon-ok"></span> Wiedza zdobyta <p>
+<p><span class="glyphicon glyphicon-remove"></span> Wiedza do opanowania </p>
+</div>
+</div>
+</div>
+</div>
+<!--CURRICULUM VITAE-->
+
+<!--KONTAKT-->
+<div id="section4" style="background-image:url('Images/Layout/contact1.jpg')" class="container-fluid">
+  <h1>Kontakt</h1>
+  <p>Maciej Stojak</p>
+  <p>Telefon: 504781123</p>
+  <p>Mail: maciej.stojak89@gmail.com</p>
+  <p class="footer-text">Źródło obrazków: freepik.com</p>
+</div>
+<!--KONTAKT-->
+
+
+</body>
+</html>
