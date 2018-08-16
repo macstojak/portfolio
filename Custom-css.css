@@ -1,45 +1,103 @@
-@import url('https://fonts.googleapis.com/css?family=Arsenal|Amatic+SC:700|Frank+Ruhl+Libre:500|Indie+Flower|Just+Another+Hand|Pacifico|Tillana:500|Satisfy:400|Shadows+Into+Light+Two');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Garamond|Fondamento|Racing+Sans+One|Arsenal|Amatic+SC:700|Frank+Ruhl+Libre:500|Indie+Flower|Just+Another+Hand|Pacifico|Tillana:500|Satisfy:400|Shadows+Into+Light+Two');
 
   body {
-      position: relative;
-	  
+     	 position: relative;
+	  background-image: url('Images/Layout/background/5.jpg');
+	  background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center; 
+    background-size: cover;
+    padding: 0px;
+    margin: 0 auto;
   }
- #section1 {padding: 1.5vw; height:1080px;color: black; background-color: #fff; background-image:url('Images/Layout/MS2.jpg'); background-repeat: no-repeat;font-family: 'Shadows Into Light Two', cursive; font-size:1.5vw;}
-  #section2 {padding: 1.5vw; height:1500px;color: #fff; background-color: #fff; margin-top: 10px; }
-   #section21 {padding: 1.5vw; padding-top: 100px; height:1500px;color: #fff; background-color: #fff; margin-top: 10px; font-color: black; }
-    #section22 {padding: 1.5vw; height:1200px;color: black; background-color: #fff; margin-top: 10px; font-color: black;}
-	 #section23 {padding: 1.5vw; height:1500px;color: black; background-color: #9AD93A; margin-top: 10px; font-color: black;}
-  #section3 {font-family: "Arsenal", sans-serif; padding: 1.5vw; height:900px;color: black; background-color: #fff; margin-top: 10px; font-color: black;}
-  #section31 {font-family: "Arsenal", sans-serif; padding: 1.5vw; height:900px;color: #black; background-color: #fff; margin-top: 10px; font-color: black; }
-    #section32 {padding: 1.5vw; height:900px;color: #black; background-color: #fff; margin-top: 10px; font-color: black;}
-	 #section33 {padding: 1.5vw; height:900px;color: #black; background-color: #fff; margin-top: 10px; font-color: black;}
-		#section34 {padding: 1.5vw; height:1200px;color: #black; background-color: #fff; margin-top: 10px; font-color: black;}
-  #section4 {font-family:'Arsenal', sans-serif; padding: 1.5vw; height:680px;color: #fff; background-color: #fff; margin-top: 10px; font-color: black;}
 
- .carousel p{
-	 font-family:'Satisfy', cursive;
-	 font-size:1.5vw;
- }
+.hideme{
+	opacity: 0;
+}
+.white-container{
+	background-color: rgba(255, 255, 255, 0.75);
+	z-index: 0;
+	content: "";
+  position: relative;
+  width: 90%;
+  height: relative;
+
+  padding: 10px 10px 100px 10px;
+  align-content: center;
+
+}
+h1{
+  text-align: center;
+}
+.text-container{
+	  width: 100%;
+	 font-family: 'Arsenal', sans-serif;
+	color: #000;
+	opacity: 1;
+	z-index: 2;
+  align-content: center;
+    
+
+}
+.left{
+  text-align: left;
+}
+
+hr.style-one {
+	opacity: 1;
+	z-index: 10;
+    border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+.txt h2{
+	font-family: "Shadows Into Light Two", cursive;
+	opacity: 1;
+	z-index: 10;
+	color: black;
+
+}
+     #section0 {width: 100%;  padding-top: 100px; height:900px;  margin-top: 20px;  }
+ #section1 {padding: 200px 1.5vw; height:1080px;color: black;  background-image:url('Images/Layout/MS3.png'); background-position: center;background-repeat: no-repeat;font-family: 'Arsenal', sans-serif; font-size:1.5vw;}
+  #section2 {padding: 1.5vw; height:1200px;color: #fff; background-color: #fff; margin-top: 200px; background-repeat: no-repeat; background-position: center top; }
+   #section21 {padding: 1.5vw; padding-top: 100px; height:1200px; color: #fff; margin-top: 200px;color: black; background-repeat: no-repeat; background-position: center top; }
+    #section22 {padding: 1.5vw; height:1000px;color: black; margin-top: 200px; color: black;  background-repeat: no-repeat; background-position: center top; }
+	 #section23 {padding-top: 18em; padding-left: 1.5vw;height:1200px;color: black; margin-top: 200px; color: black;background-repeat: no-repeat; background-position: center top;}
+	 #section24 {padding: 1.5vw; height:1200px;color: black; margin-top: 200px; background-repeat: no-repeat; background-position: center top;}
+  #section3 {font-family: "Arsenal", sans-serif; padding: 1.5vw; height:900px;color: black; background-color: #fff; margin-top: 10px; }
+  #section31 {font-family: "Arsenal", sans-serif; padding: 1.5vw; height:auto;color: black; background-color: #fff; margin-top: 10px;  }
+    #section32 {padding: 1.5vw; height:auto;color: black; background-color: #fff; margin-top: 10px; }
+	 #section33 {padding: 1.5vw; height:auto;color: black; background-color: #fff; margin-top: 10px; }
+		#section34 {padding: 1.5vw; height:auto;color: black; background-color: #fff; margin-top: 10px;}
+  #section4 {font-family:'Arsenal', sans-serif; padding: 1.5vw; height:680px;color: #fff; background-color: #fff; margin-top: 10px; }
+
 .navbar-default .navbar-toggle .icon-bar {
     background-color: black;
 }
+#section0 .text-container{
+	color: #000;
+	font-family: 'Arsenal', sans-serif;
+	text-align: center;
+	align-content: center;
+
+}
 #section21 p{
 	font-family: 'Arsenal', sans-serif;
+	
 }
 #section22 p{
 	font-family: 'Arsenal', sans-serif;
-}
-#section23 p{
-	font-family: 'Arsenal', sans-serif;
+	text-shadow: 2px 2px #fff;
 }
 
- img{
-	 width:100%
-	 position: center;
- }
-.carousel-slide{
-    max-height: 500px; 
-    width:100%;
+#section23 p{
+	font-family: 'Arsenal', sans-serif;
+	text-shadow: 2px 2px #fff;
+}
+#section24 p{
+	font-family: 'Arsenal', sans-serif;
+	
 }
 
 .navbar-brand
@@ -51,19 +109,17 @@
 font-family: 'Tillana', cursive;
 	font-size: 18px;	
 }
-#section1 h1,p,li{
-	font-family: 'Shadows Into Light Two', cursive;
-}
+
 p, li{
 	font-size:20px;
 }
 #myNavbar a,li{
-	font-family: 'Shadows Into Light Two', cursive;
+	font-family: 'Arsenal', sans-serif;
 }
 .brand-style > p{
 	font-family: 'Tillana', cursive;
 	font-size: 18px;
-	font-decoration:none;
+	font-decoration: none;
 }
 .plain-text {
 	font-family: 'Shadows Into Light Two', cursive;
@@ -79,31 +135,16 @@ p, li{
 	height:80px;
 }
 .glyphicon{
+	color:#000;
+}
+.brand-style .glyphicon-envelope .glyphicon-phone{
 	color:#fff;
 }
 #section34 .glyphicon-ok-circle{
 	color: black;
 }
-.carousel-caption {
-	font-size: 3vw;
-	font-family:'Pacifico', cursive;
-	bottom: 30%;
 
-}
-.carousel-caption h2{
-	padding-bottom: 0.5vw;
-		font-size: 3vw;
-	font-family:'Pacifico', cursive;
-}
 
-.carousel-indicators li{
-	height:1.5vw;
-	width:1.5vw;
-}
-.carousel-indicators .active{
-	height:1.5vw;
-	width:1.5vw;
-}
 
 .button-text{
 	font-family: 'Arsenal', sans-serif;
@@ -147,3 +188,188 @@ bottom: 120%;
 	font-family: "Arsenal", sans-serif;
 }
 
+
+.row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Create four equal columns that floats next to eachother */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 2;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: black;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top: 50px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+  opacity: 0.8;
+}
+
+.close:hover,
+.close:focus {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  opacity: 1;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Caption text */
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+/*img.demo {
+  opacity: 0.6;
+  width: 60%;
+}*/
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+/*
+img.hover-shadow {
+  transition: 0.3s;
+}*/
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.panel{
+	padding: 5px;
+	
+}
+.white-text{
+	color:#fff;
+
+}
+.black-text{
+	color:#000;
+}
+
+/*Image overlay effects*/
+.cont {
+    position: relative;
+   
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.cont:hover .image {
+  opacity: 0.3;
+}
+
+.cont:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #fd660d;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.text a{
+  font-style: none;
+  color: white;
+}

@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="pl-PL">
 <head>
-  <title>Witaj na mojej stronie</title>
+  <title>Hello World :)</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous" />
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script>
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha256-ZT4HPpdCOt2lvDkXokHuhJfdOKSPFLzeAJik5U/Q+l4=" crossorigin="anonymous" />
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	<link href="Custom-css.css" rel="stylesheet" type="text/css">
 	<script type="text/javascript" src="main.js"></script>
-	<link href="https://fonts.googleapis.com/css?family=Amatic+SC:700|Frank+Ruhl+Libre:500|Tillana:500|Satisfy:400|Shadows+Into+Light+Two" rel="stylesheet"> 
+	<script type="text/javascript" src="lightbox.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond|Fondamento|Racing+Sans+One|Amatic+SC:700|Frank+Ruhl+Libre:500|Tillana:500|Satisfy:400|Shadows+Into+Light+Two" rel="stylesheet"> 
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
 
 </head>
 
-<body style="background-color:#FFFFFE;" data-spy="scroll" data-target=".navbar" data-offset="50">
+<body id="bg" data-spy="scroll" data-target=".navbar" data-offset="50">
 
 
 <!------------------------------ Menu -------------------------------------->
@@ -35,80 +37,86 @@
         <li class="dropdown">
           <a class="dropdown-toggle" data-toggle="dropdown" href="#">Projekty <span class="caret"></span></a>
           <ul class="dropdown-menu">
-		    <li><a href="#section21">Strony internetowe</a></li>
-            <li><a href="#section22">VBA</a></li>
-			<li><a href="#section23">Access</a></li>
-
+				<li><a href="#section21">Strony internetowe</a></li>
+				<li><a href="#section22">Node.js, MongoDB></a></li>
+            <li><a href="#section23">VBA</a></li>
+			<li><a href="#section24">Access</a></li>
+			
           </ul>
         </li>
         <li><a href="#section3">Curriculum Vitae</a></li>
         <li><a href="#section4">Kontakt</a></li>
       </ul>
-<ul class="navbar-nav navbar-brand navbar-right">
-<p class="brand-style"><span class="glyphicon glyphicon-phone"></span>  tel. 504 781 123 | <span class="glyphicon glyphicon-envelope"></span><a class="brand-style" href="mailto:maciej.stojak89@wp.pl">  e-mail:maciej.stojak89@wp.pl</a></p>
 
-</ul>
     </div>
   </div>
 </nav>
 
-<!------------------------------ CAROUSEL -------------------------------------->
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-
-  </ol>
-
-  <!-- Wrapper for slides -->
-  <div class="carousel-inner" role="listbox">
-    <div class="item active">
-      <img src="Images/Layout/field1.jpg" alt="Pole">
-	  <div class="carousel-caption">
-	  <h2>Witaj! Poznaj projekty stron nad którymi pracowałem</h2>
-		<p><a class="btn btn-lg btn-primary button-text" role="button" href="#section21">Zobacz strony internetowe</a></p>
-	  </div>
-    </div>
-
-    <div class="item">
-      <img src="Images/Layout/forest1.jpg" alt="Las">
-	  <div class="carousel-caption">
-	  <h2>Sprawdź, co dotychczas stworzyłem z wykorzystaniem C#</h2> 
-	  <p><a class="btn btn-lg btn-primary button-text" role="button" href="https://github.com/macst89" target="_blank">Przejdź do konta github</a></p>
-	  </div>
-    </div>
-
-    <div class="item">
-      <img src="Images/Layout/lake1.jpg" alt="Morze">
-	  <div class="carousel-caption">
-	  <h2>Skontaktuj się ze mną i umów się na rozmowę</h2>
-
-	  <p><a class="btn btn-lg btn-primary button-text" role="button" href="#section4">Zobacz dane kontaktowe</a></p>
-	  </div>
-    </div>
-
-  </div>
-
-  <!-- Left and right controls -->
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
 <!------------------------------ TREŚĆ -------------------------------------->
-<!--O MNIE-->
-<div id="section1" class="container-fluid">
 <div class="container-fluid">
-  <h1 class="custom-heading">O mnie</h1>
+	
+
+<!--O MNIE-->
+<div id="section0" class="container-fluid white-container">
+<div class="text-container">
+
+  <br><br>
+  <h2>Witam! Poznaj moje projekty</h2>
+<hr class="style-one">
+  <br><br><br><br>
+  <div class="row">
+  	<div class="col-md-3">
+  		<div class="cont">
+		  <img src='Images/Layout/icons/webdesign-ico.png' class="image" style="width:100%">
+		  <div class="middle">
+		    <div class="text"><a href="#section21">Projekty stron internetowych</a></div>
+		  </div>
+		</div>
+  	</div>
+  	<div class="col-md-3">
+  		<div class="cont">
+		  <img src='Images/Layout/icons/cloud-ico.png' class="image" style="width:100%">
+		  <div class="middle">
+		    <div class="text"><a href="#section22">Aplikacje MEAN stack</a></div>
+		  </div>
+		</div>
+	</div>
+  	<div class="col-md-3">
+  	<div class="cont">
+		  <img src='Images/Layout/icons/datasheet-ico.png' class="image" style="width:100%">
+		  <div class="middle">
+		    <div class="text"><a href="#section23">VBA Excel</a></div>
+		  </div>
+		</div>
+	</div>
+  	<div class="col-md-3">
+  		<div class="cont">
+		  <img src='Images/Layout/icons/desktop-ico.png' class="image" style="width:100%">
+		  <div class="middle">
+		    <div class="text"><a href="#section24">MS Access</a></div>
+		  </div>
+		</div>
+	</div>
+  </div>
+  <hr class="style-one">
   
-  <ul><h2>Edukacja</h2>
+  </div>
+</div>
+
+
+<!--O MNIE-->
+
+
+<!--O MNIE-->
+<div id="section1" class="container-fluid hideme">
+<div class="container-fluid">
+
+<div class="white-container ">
+	
+ <h1>O mnie</h1>
+
+  <ul><h3>Edukacja</h3>
   <p>Studia podyplomowe</p>
 	  <p>Politechnika Białostocka - Wydział Informatyczny - Informatyka</p>
 	  </br>
@@ -118,89 +126,228 @@
   </ul>
 </br>
 	<ul>
-	<h2>Zainteresowania</h2>
+	<h3>Zainteresowania</h3>
 	<p>Gra na gitarze, wędkarstwo i spędzanie czasu na łonie natury :)</p>
 	</ul>
+	</div>
 </div>
 </div>
 <!--O MNIE-->
 
 <!--STRONY INTERNETOWE-->
-<div id="section21" style="background-image:url('Images/Layout/desktop1.jpg')" class="container-fluid">
-<div class="container-fluid">
-   <h1>Strony internetowe</h1>
-
-  <p><span class="glyphicon glyphicon-ok-circle"></span>  Strona weselna z galerią zdjęć w Wordpressie  </p>
-  <p><a href="http://www.agaimaciek2016.pl/" target="_blank">Przejdź do strony  <span class="glyphicon glyphicon-share-alt"></span></a></p>
-  <br/>
-  <div class="row">
-		<div class="col-xs-4 col-md-4">
-			<div class="thumbnail">
-			<a href="Images/Projects/wedding-site1.jpg" target="_blank">
-			<img src="Images/Projects/wedding-site1.jpg" alt="Strona weselna2" style="width:100%">
-			<div class="caption"><p>Strona w Wordpress</p></div>
-			</a>
-			</div>
-		</div>
-		<div class="col-xs-4 col-md-4">
-			<div class="thumbnail">
-			<a href="Images/Projects/wedding-site2.jpg" target="_blank">
-			<img src="Images/Projects/wedding-site2.jpg" alt="Strona weselna2" style="width:100%">
-			<div class="caption"><p>Przykładowa galeria</p></div>
-			</a>
-			</div>
-		</div>
+<div id="section21" style="background-image:url('Images/Layout/webdesign1.png')" class="container-fluid hideme">
 	
-	</div>
-    <br/>
-  
- <p><span class="glyphicon glyphicon-ok-circle"></span>  Projekt strony NZOZ OMNI-MED z elektroniczną rejestracją (umieszczony na koncie github)</p>
- <div class="row">
-		<div class="col-xs-3 col-md-3">
-			<div class="thumbnail">
-			<a href="Images/Projects/omni1.jpg" target="_blank">
-			<img src="Images/Projects/omni1.jpg" alt="Strona OMNI-MED1" style="width:100%">
-			<div class="caption"><p>Strona główna</p></div>
-			</a>
+		
+	<div class="container-fluid white-container ">
+		<div class="text-container">
+		<h1>Strony internetowe</h1>
+		<div class="row">
+		 <p><span class="glyphicon glyphicon-ok-circle"></span>  Strona weselna z galerią zdjęć w Wordpressie  </p>
+	
+			<!-- Otwieranie lightbox -->
+			<div class="column">	
+				<div class="thumbnail">	
+				<img src="Images/Projects/wedding-site1.jpg" alt="Strona weselna2"  onclick="openModal('wedding');currentSlide(1, 'wedding')" class="hover-shadow" style="width:100%">
+				<div class="caption"><p>Strona w Wordpress</p></div>
+				</div>	
 			</div>
-		</div>
-		<div class="col-xs-3 col-md-3">
-			<div class="thumbnail">
-			<a href="Images/Projects/omni2.jpg" target="_blank">
-			<img src="Images/Projects/omni2.jpg" alt="Strona OMNI-MED2" style="width:100%">
-			<div class="caption"><p>Strona rejestracji</p></div>
-			</a>
+			<div class="column">
+				<div class="thumbnail">				
+				<img src="Images/Projects/wedding-site2.jpg" alt="Strona weselna2"  onclick="openModal('wedding');currentSlide(2, 'wedding')" class="hover-shadow" style="width:100%">
+				<div class="caption"><p>Przykładowa galeria</p></div>
+				</div>
 			</div>
-		</div>
-		<div class="col-xs-3 col-md-3">
-			<div class="thumbnail">
-			<a href="Images/Projects/omni3.jpg" target="_blank">
-			<img src="Images/Projects/omni3.jpg" alt="Strona OMNI-MED3" style="width:100%">
-			<div class="caption"><p>Strona informacyjna</p></div>
-			</a>
+			
+			<!-- Okno modalne lightbox -->
+			<div class="myModal wedding modal">
+			  <span class="close cursor" onclick="closeModal('wedding')">&times;</span>
+				  <div class="modal-content">
+
+				    <div class="mySlides wedding">
+				      <div class="numbertext">1 / 2</div>
+				      <img src="Images/Projects/wedding-site1.jpg" style="width:100%">
+				    </div>
+
+				    <div class="mySlides wedding">
+				      <div class="numbertext">2 / 2</div>
+				      <img src="Images/Projects/wedding-site2.jpg" style="width:100%">
+				    </div>
+				    <!-- Kontrolki wstecz/dalej -->
+				    <a class="prev" onclick="plusSlides(-1, 'wedding')">&#10094;</a>
+				    <a class="next" onclick="plusSlides(1, 'wedding')">&#10095;</a>
+				    <!-- Tekst -->
+				    <div class="caption-container">
+				      <p id="caption"></p>
+				    </div>
+				  </div>
 			</div>
-		</div>
-	<div class="col-xs-3 col-md-3">
-			<div class="thumbnail">
-			<a href="Images/Projects/omni4.jpg" target="_blank">
-			<img src="Images/Projects/omni4.jpg" alt="Strona OMNI-MED2" style="max-height: 208.45px; width:100%">
-			<div class="caption"><p>Kawałek kodu odpowiedzialnego za komunikację interfejsu z bazą</p></div>
-			</a>
+		
+	
+
+  <br/>
+  </div>
+
+	<div class="row">
+	<p><span class="glyphicon glyphicon-ok-circle"></span>  Projekt strony NZOZ OMNI-MED z elektroniczną rejestracją</p>
+			<div class="column">			
+				<img src="Images/Projects/omni1.jpg" alt="Strona OMNI-MED1"  onclick="openModal('omni');currentSlide(1, 'omni')" class="hover-shadow" style="width:100%">
+				<div class="caption"><p>Strona główna</p></div>
 			</div>
+			<div class="column">			
+				<img src="Images/Projects/omni2.jpg" alt="Strona OMNI-MED2"  onclick="openModal('omni');currentSlide(2, 'omni')" class="hover-shadow" style="width:100%">
+				<div class="caption"><p>Strona informacyjna</p></div>
+			</div>
+			<div class="column">			
+				<img src="Images/Projects/omni3.jpg" alt="Strona OMNI-MED3"  onclick="openModal('omni');currentSlide(3,  'omni')" class="hover-shadow" style="width:100%">
+				<div class="caption"><p>Strona informacyjna/p></div>
+			</div>
+			<div class="column">			
+				<img src="Images/Projects/omni4.jpg" alt="Strona OMNI-MED4"  onclick="openModal('omni');currentSlide(4, 'omni')" class="hover-shadow" style="width:100%">
+				<div class="caption"><p>Część kodu odpowiedzialnego za komunikację interfejsu z bazą</p></div>
+			</div>
+	
+	<!-- Okno modalne lightbox -->
+	<div class="myModal modal">
+	  <span class="close cursor" onclick="closeModal('omni')">&times;</span>
+		  <div class="modal-content omni">
+
+		    <div class="mySlides omni">
+		      <div class="numbertext">1 / 4</div>
+		      <img src="Images/Projects/omni1.jpg" style="width:100%">
+		    </div>
+
+		    <div class="mySlides omni">
+		      <div class="numbertext">2 / 4</div>
+		      <img src="Images/Projects/omni2.jpg" style="width:100%">
+		    </div>
+		     <div class="mySlides omni">
+		      <div class="numbertext">3 / 4</div>
+		      <img src="Images/Projects/omni3.jpg" style="width:100%">
+		    </div>
+		     <div class="mySlides omni">
+		      <div class="numbertext">4 / 4</div>
+		      <img src="Images/Projects/omni4.jpg" style="width:100%">
+		    </div>
+		    <!-- Kontrolki wstecz/dalej -->
+		    <a class="prev" onclick="plusSlides(-1, 'omni')">&#10094;</a>
+		    <a class="next" onclick="plusSlides(1, 'omni')">&#10095;</a>
+		    <!-- Tekst -->
+		    <div class="caption-container">
+		      <p id="caption"></p>
+		    </div>
+			  </div>
 		</div>
-	</div>
-	<p><span class="glyphicon glyphicon-ok-circle"></span>  Portfolio www.maciejstojak.pl - z wykorzystaniem wiedzy z zakresu HTML, CSS i Bootstrap</p>
+		</div>
+
+		<div class="row">
+		<p><span class="glyphicon glyphicon-ok-circle"></span>  ColorGame - prosta gra z wykorzystaniem HTML, CSS i Javascript <span><a class="btn btn-primary" href="https://macstojak.github.io/color-game/"><i class="fas fa-angle-double-right"></i> Sprawdź ColorGame</a>
+		</span></p> 
+	 	
+			<div class="col-xs-3 col-md-3">
+				<div class="thumbnail">
+				<a href="Images/Projects/color-game.jpg" target="_blank">
+				<img src="Images/Projects/color-game.jpg" alt="ColorGame" style="width:100%">
+				<div class="caption"><p>Strona główna</p></div>
+				</a>
+				</div>
+			</div>
+		
+
+	    <br/>
+	  	</div>
+	  	
+</div>
 </div>
 </div>
 <!--STRONA INTERNETOWA-->
+<!--MEAN STACK-->
+<div id="section22" style="background-image:url('Images/Layout/cloud3.png')"  class="container-fluid hideme">
+	<br><br><br>
+	<div class="container-fluid white-container">
+		<div class=" text-container">
+		 <h1>Przykłady stron w oparciu o MongoDB, Express i Node.js</h1>
+	
+		<p><span class="glyphicon glyphicon-ok-circle"></span>  YELP Camp - aplikacja do przeglądania, komentowania i dodawania miejsc campingowych  </p>
+		
+		<br/>
+		<div class="row">
+			<div class="col-xs-4 col-md-4">
+				<div class="thumbnail">
+				<a href="Images/Projects/yelp-camp/1.jpg" target="_blank">
+				<img src="Images/Projects/yelp-camp/1.jpg" alt="Strona weselna2" style="width:100%">
+				<div class="caption"><p>Strona główna</p></div>
+				</a>
+				</div>
+			</div>
+			<div class="col-xs-4 col-md-4">
+				<div class="thumbnail">
+				<a href="Images/Projects/yelp-camp/2.jpg" target="_blank">
+				<img src="Images/Projects/yelp-camp/2.jpg" alt="Strona weselna2" style="width:100%">
+				<div class="caption"><p>Lista campingów</p></div>
+				</a>
+				</div>
+			</div>
+			<div class="col-xs-4 col-md-4">
+				<div class="thumbnail">
+				<a href="Images/Projects/yelp-camp/3.jpg" target="_blank">
+				<img src="Images/Projects/yelp-camp/3.jpg" alt="Strona weselna2" style="width:100%">
+				<div class="caption"><p>Informacje o campingu</p></div>
+				</a>
+				</div>
+			</div>
+		
+		</div>
+			<br/>
+		
+	 <p><span class="glyphicon glyphicon-ok-circle"></span>  PhysioBase - Projekt wewnętrznej bazy danych pacjentów</p>
+	 <div class="row">
+			<div class="col-xs-3 col-md-3">
+				<div class="thumbnail">
+				<a href="Images/physio-base/login.jpg" target="_blank">
+				<img src="Images/physio-base/login.jpg" alt="Strona physio" style="width:100%">
+				<div class="caption"><p>Strona logowania</p></div>
+				</a>
+				</div>
+			</div>
+			<div class="col-xs-3 col-md-3">
+				<div class="thumbnail">
+				<a href="Images/physio-base/new.jpg" target="_blank">
+				<img src="Images/physio-base/new.jpg" alt="Strona physio2" style="width:100%">
+				<div class="caption"><p>Dodawanie pacjenta</p></div>
+				</a>
+				</div>
+			</div>
+		<div class="col-xs-3 col-md-3">
+				<div class="thumbnail">
+				<a href="Images/physio-base/patientlist.jpg" target="_blank">
+				<img src="Images/physio-base/patientlist.jpg" alt="Strona OMNI-MED2" style="max-height: 208.45px; width:100%">
+				<div class="caption"><p>Lista pacjentów</p></div>
+				</a>
+				</div>
+			</div>
+			<div class="col-xs-3 col-md-3">
+				<div class="thumbnail">
+				<a href="Images/physio-base/patient-info.jpg" target="_blank">
+				<img src="Images/physio-base/patient-info.jpg" alt="Strona OMNI-MED2" style="max-height: 208.45px; width:100%">
+				<div class="caption"><p>Informacje o pacjencie</p></div>
+				</a>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
 
+	</div>
+
+<!--MEAN STACK-->
 <!--VBA-->
-<div id="section22" style="background-image:url('Images/Layout/charts1.jpg')" class="container-fluid">
-<div class="container-fluid">
+<div id="section23" style="background-image:url('Images/Layout/datasheet4.png')" class="container-fluid hideme">
+<div class="container-fluid white-container">
+	<div class="text-container">
   <h1>VBA</h1>
   <p>Sporządzenie formularza do wypełniania kart rehabilitanta i tworzenia listy pacjentów do ponownego wykorzystania</p>
 	<div class="row">
-		<div class="col-xs-4 col-md-4">
+		<div class="col-xs-3 col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/excel-form.jpg" target="_blank">
 			<img src="Images/Projects/excel-form.jpg" alt="Excel formularz" style="width:100%">
@@ -208,7 +355,7 @@
 			</a>
 			</div>
 		</div>
-		<div class="col-xs-4  col-md-4">
+		<div class="col-xs-3  col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/excel-vba.jpg" target="_blank">
 			<img src="Images/Projects/excel-vba.jpg" alt="Kod VBA" style="width:100%">
@@ -216,7 +363,7 @@
 			</a>
 			</div>
 		</div>
-		<div class="col-xs-4 col-md-4">
+		<div class="col-xs-3 col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/pdf-form.jpg" target="_blank">
 			<img src="Images/Projects/pdf-form.jpg" alt="Excel formularz" style="width:100%">
@@ -228,16 +375,19 @@
 	
   </div>
   </div>
+  </div>
 <!--VBA-->  
   
 <!--ACCESS-->  
-<div id="section23" style="background-image:url('Images/Layout/deal1.jpg')" class="container-fluid">
-<div class="container-fluid">
+<div id="section24" style="background-image:url('Images/Layout/desktop4.png')" class="container-fluid hideme">
+	<br><br><br>
+<div class="container-fluid white-container">
+	<div class="text-container">
   <h1>Microsoft Access</h1>
   <p>Zrealizowanie bazy danych rehabilitacji w programie MS ACCESS do sprawnego sporządzania dokumentacji w formie elektronicznej i papierowej.</p>
   
   <div class="row">
-		<div class="col-xs-4">
+		<div class="col-xs-3 col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/access-register.jpg" target="_blank">
 			<img src="Images/Projects/access-register.jpg" alt="Access rejestracja" style="width:100%">
@@ -245,7 +395,7 @@
 			</a>
 			</div>
 		</div>
-		<div class="col-xs-4">
+		<div class="col-xs-3 col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/access-prescription.jpg" target="_blank">
 			<img src="Images/Projects/access-prescription.jpg" alt="Skierowanie" style="width:100%">
@@ -253,7 +403,7 @@
 			</a>
 			</div>
 		</div>
-		<div class="col-xs-4">
+		<div class="col-xs-3 col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/access-visit.jpg" target="_blank">
 			<img src="Images/Projects/access-visit.jpg" alt="Wizyta" style="width:100%">
@@ -263,7 +413,7 @@
 		</div>
 	</div>
 	<div class="row">
-		<div class="col-xs-4">
+		<div class="col-xs-3 col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/access-relations.jpg" target="_blank">
 			<img src="Images/Projects/access-relations.jpg" alt="Access relacje" style="width:100%">
@@ -271,7 +421,7 @@
 			</a>
 			</div>
 		</div>
-		<div class="col-xs-4">
+		<div class="col-xs-3 col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/access-vba.jpg" target="_blank">
 			<img src="Images/Projects/access-vba.jpg" alt="Kod vba" style="width:100%">
@@ -279,7 +429,7 @@
 			</a>
 			</div>
 		</div>
-		<div class="col-xs-4">
+		<div class="col-xs-3 col-md-3">
 			<div class="thumbnail">
 			<a href="Images/Projects/access-word.jpg" target="_blank">
 			<img src="Images/Projects/access-word.jpg" alt="Access to word" style="width:100%">
@@ -289,11 +439,14 @@
 		</div>
 	</div>
  </div>
+ </div>
 </div>
 <!--ACCESS-->
-
+<br>
+<br>
+<br>
 <!--CURRICULUM VITAE-->
-<div id="section3" class="container-fluid">
+<div id="section3" class="container-fluid hideme">
 
 <div class="navbar-header navbar-default">
     <div class="nav nav-tabs">
@@ -322,13 +475,19 @@
 <p>Data urodzenia: 20.01.1989</p>
 <p>Telefon: 504 781 123</p>
 <p>E-mail: maciej.stojak89@wp.pl</p>
-<p>GitHub: macst89</p>
-<p>www.maciejstojak.pl</p>
+<p>GitHub: macstojak <a href="https://github.com/macstojak">(github.com/macstojak)</a></p>
+<p>WWW: <a href="https://macstojak.github.io/portfolio">macstojak.github.io/portfolio</a></p>
 </div>
 </div>
 <div id="section32" class="tab-pane fade">
 <h3 class="customheading">NZOZ OMNI-MED (01.2014-obecnie)</h3>
 <p>Stanowisko: Pracownik biurowy/Informatyk</p>
+<p>Projekty:</p>
+<li>Baza danych szkoleń i rehabilitacji w MS Access, formularz zabiegów w Excelu VBA</li>
+<li>Aplikacja Physio-Base z wykorzystaniem MongoDB, Express.js i Node.js</li>
+<li>Aplikacja Nurse-Course z wykorzystaniem MongoDB, Express.js i Node.js</li>
+<br>
+<br>
 <p>Obowiązki:</p>
 <li>Przygotowanie co miesięcznej dokumentacji medycznej pacjenta dla lekarza i rehabilitantów z wykorzystaniem utworzonej bazy danych MS Access oraz formularzy w Word i Excel</li>
 <li>Obsługa interesantów do opieki długoterminowej, rehabilitacji i szkoleń</li>
@@ -352,56 +511,15 @@ Specjalność: Nowoczesne konstrukcje i technologie w medycynie
 </li>
 </div>
 <div id="section34" class="tab-pane fade">
-<p><span class="glyphicon glyphicon-ok-circle"></span>  C# - poziom średniozaawansowany </p>
-<div class="progress " style="height: 50px">
-  <div class="progress-bar progress-bar-success progress-text " role="progressbar" style="width:60%">
-   Podstawy(tablice, pętle itp.), klasy, enkapsulacja, dziedziczenie, polimorfizm
-  </div>
-  <div class="progress-bar progress-bar-warning progress-text " role="progressbar" style="width:40%">
-    Wyrażenia lambda
-  </div>
+<h3>Umiejętności:</h3>
+<ul>
+	<li>SQL - tworzenie schematów baz danych, wykonywanie kwerend, podzapytania</li>
+	<li>MongoDB, Express.js, Node.js - tworzenie aplikacji z bazą danych NoSQL</li>
+	<li>HTML, CSS, Javascript, jQuery</li>
+	<li>C#, WPF</li>
+	<li>Git</li>
 
-</div>
-</br>
-
-<p><span class="glyphicon glyphicon-ok-circle"></span>  .NET - poziom podstawowy
-</p>
-<div class="progress " style="height: 50px">
-  <div class="progress-bar progress-bar-success progress-text " role="progressbar" style="width:40%">
-   Tworzenie formularzy rejestracji i logowania, WebForms
-  </div>
-  <div class="progress-bar progress-bar-warning progress-text " role="progressbar" style="width:60%">
-    Wzorzec MVC
-  </div>
-</div>
-</br>
-
-<p><span class="glyphicon glyphicon-ok-circle"></span>  SQL - poziom średniozaawansowany</p>
-<div class="progress " style="height: 50px">
-  <div class="progress-bar progress-bar-success progress-text " role="progressbar" style="width:80%">
-   DDL, DML, DCL, funkcje, grupowanie, złączenia, relacje, podzapytania
-  </div>
-  <div class="progress-bar progress-bar-warning progress-text " role="progressbar" style="width:20%">
-    Procedury składowane
-  </div>
-  </div>
- </br> 
- 
-<p><span class="glyphicon glyphicon-ok-circle"></span>  UML - poziom średniozaawansowany</p>
-<div class="progress " style="height: 50px">
-  <div class="progress-bar progress-bar-success progress-text " role="progressbar" style="width:80%">
-   Diagramy klas, aktywności, użycia, stanu, wdrożenia
-   </div>
-  <div class="progress-bar progress-bar-warning progress-text " role="progressbar" style="width:20%">
-    ...
-  </div>
-</div>
-</br>
-
-<p><span class="glyphicon glyphicon-ok-circle"></span>  Pozostałe umiejętności: HTML, CSS, Bootstrap, jQuery, VBA</p>
-<p>LEGENDA: </p>
-<p><span class="glyphicon glyphicon-ok"></span> Wiedza zdobyta <p>
-<p><span class="glyphicon glyphicon-remove"></span> Wiedza do opanowania </p>
+</ul>
 </div>
 </div>
 </div>
@@ -409,7 +527,7 @@ Specjalność: Nowoczesne konstrukcje i technologie w medycynie
 <!--CURRICULUM VITAE-->
 
 <!--KONTAKT-->
-<div id="section4" style="background-image:url('Images/Layout/contact1.jpg')" class="container-fluid">
+<div id="section4" style="background-image:url('Images/Layout/contact2.jpg')" class="container-fluid hideme">
   <h1>Kontakt</h1>
   <p>Maciej Stojak</p>
   <p>Telefon: 504781123</p>
@@ -418,6 +536,6 @@ Specjalność: Nowoczesne konstrukcje i technologie w medycynie
 </div>
 <!--KONTAKT-->
 
-
+</div>
 </body>
 </html>
